@@ -1,0 +1,35 @@
+.Iconos{
+    display: flex;
+    justify-content: space-between;
+}
+.cuadro{
+    border: 1px solid #050505; /* Estilo de borde */
+}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-between; /* Distribuye las imágenes con espacio entre ellas */
+    
+  }
+
+  .cuadro1 {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #0e0d0d; /* Estilo de borde */
+    margin: 20px;
+    padding: 20px;
+  }
+
+.Autor{
+    width: 100px; /* Ajusta el ancho del cuadro */
+  height: 100px; /* Ajusta la altura del cuadro */
+  border-radius: 15%; /* Crea una forma circular */
+  overflow: hidden; /* Oculta el exceso de la imagen */
+  display: flex; /* Permite alinear la imagen y el texto verticalmente */
+  flex-direction: column; /* Alinea la imagen y el texto en una columna */
+  align-items: center; /* Centra la imagen y el texto horizontalmente */
+  text-align: center; /* Centra el texto verticalmente */
+  border: 1px solid #ccc; /* Estilo de borde (opcional) */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
