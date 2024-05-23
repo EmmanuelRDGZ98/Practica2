@@ -5,11 +5,29 @@
 .cuadro{
     border: 1px solid #050505; /* Estilo de borde */
 }
+.texto{
+  display: flex;
+  justify-content: center;
+}
+
+.estilo-imagenes{
+  width: 50px;
+  border-radius: 50px;
+}
 .contenedor-imagenes {
     display: flex;
-    justify-content: space-between; /* Distribuye las imágenes con espacio entre ellas */
-    
+    justify-content: space-between;
+    margin-bottom: 10px;
   }
+  
+.contenedor-imagenes img {
+  width: calc(33.333% - 10px);
+  margin-right: 10px;
+}
+
+.contenedor-imagenes img:last-child {
+  margin-right: 0;
+}
 
   .cuadro1 {
     display: flex;
