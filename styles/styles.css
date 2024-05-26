@@ -1,4 +1,5 @@
 .Iconos{
+  background-color: rgb(44, 90, 177);
     display: flex;
     justify-content: space-between;
 }
@@ -11,18 +12,20 @@
 }
 
 .estilo-imagenes{
-  width: 50px;
+  width: 60px;
   border-radius: 50px;
 }
 .contenedor-imagenes {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    
   }
   
 .contenedor-imagenes img {
-  width: calc(33.333% - 10px);
+  width: calc(33.333% - 150px);
   margin-right: 10px;
+  border-radius: 15px;
 }
 
 .contenedor-imagenes img:last-child {
@@ -35,19 +38,24 @@
     border: 1px solid #0e0d0d; /* Estilo de borde */
     margin: 20px;
     padding: 20px;
+    border-radius: 15px;
+  }
+  .cuadro1 img{
+    border-radius: 15px;
+
   }
 
-.Autor{
-    width: 100px; /* Ajusta el ancho del cuadro */
-  height: 100px; /* Ajusta la altura del cuadro */
-  border-radius: 15%; /* Crea una forma circular */
-  overflow: hidden; /* Oculta el exceso de la imagen */
-  display: flex; /* Permite alinear la imagen y el texto verticalmente */
-  flex-direction: column; /* Alinea la imagen y el texto en una columna */
-  align-items: center; /* Centra la imagen y el texto horizontalmente */
-  text-align: center; /* Centra el texto verticalmente */
-  border: 1px solid #ccc; /* Estilo de borde (opcional) */
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+.Autor {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.Autor img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+
