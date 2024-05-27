@@ -5,6 +5,7 @@
 }
 .cuadro{
     border: 1px solid #050505; /* Estilo de borde */
+    background-color: rgb(155, 177, 226);
 }
 .texto{
   display: flex;
@@ -50,12 +51,24 @@
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
 }
 .Autor img {
     max-width: 20%;
     height: auto;
     border-radius: 15px;
 
+}
+.Autor p{
+  
+}
+
+.correo {
+  background-color: rgb(26, 28, 147);
+}
+
+.correo p {
+  color: #ffffff;
 }
 
 
