@@ -6,32 +6,70 @@
 .cuadro{
     border: 1px solid #050505; /* Estilo de borde */
     background-color: rgb(155, 177, 226);
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+   
 }
+/*.cuadro{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+
+/*.cuadro img{
+  width:25%;
+  margin: 3%;
+}
+
+*/
+.cuadro img{
+  width:25%;
+  margin: 4%;
+  border-radius: 15px;
+  height: 150px;
+  
+}
+
+.Imagenes:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+
+
 .texto{
   display: flex;
   justify-content: center;
 }
 
 .estilo-imagenes{
-  width: 60px;
+  width: 80px;
   border-radius: 50px;
 }
-.contenedor-imagenes {
+.estilo-imagenes:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+/*.contenedor-imagenes {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
     
-  }
+  }*/
   
-.contenedor-imagenes img {
+/*.contenedor-imagenes img {
   width: calc(33.333% - 150px);
   margin-right: 10px;
   border-radius: 15px;
-}
+}*/
 
-.contenedor-imagenes img:last-child {
+/*.contenedor-imagenes img:last-child {
   margin-right: 0;
-}
+}*/
 
   .cuadro1 {
     display: flex;
@@ -59,9 +97,11 @@
     border-radius: 15px;
 
 }
-.Autor p{
-  
+.Autor img:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
 }
+
 
 .correo {
   background-color: rgb(26, 28, 147);
